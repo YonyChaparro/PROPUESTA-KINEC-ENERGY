@@ -9,6 +9,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=Montserrat:wght@500;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init({ publicKey: "YOUR_PUBLIC_KEY" });
+  })();
+</script>
 <script>
       tailwind.config = {
         darkMode: "class",
@@ -116,15 +122,16 @@
 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition" href="#services">Servicios</a>
 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition" href="#projects">Proyectos</a>
 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition" href="#why-us">Nosotros</a>
-<a class="bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-2.5 rounded-full font-semibold transition shadow-lg shadow-green-500/30 flex items-center gap-2" href="https://wa.me/573213159836" target="_blank">
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition" href="#social-proof">Reseñas</a>
+<a class="bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-2.5 rounded-full font-semibold transition shadow-lg shadow-green-500/30 flex items-center gap-2" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy.%20%C2%BFMe%20pueden%20asesorar%20sobre%20sus%20servicios%3F" target="_blank">
 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
 </svg>
                         WhatsApp
                     </a>
-<a class="bg-primary hover:bg-secondary text-white px-5 py-2.5 rounded-full font-semibold transition shadow-lg shadow-green-500/30 flex items-center gap-2" href="#contact">
+<a class="bg-primary hover:bg-secondary text-white px-5 py-2.5 rounded-full font-semibold transition shadow-lg shadow-green-500/30 flex items-center gap-2" href="tel:+573125323860">
 <span class="material-icons-outlined text-sm">call</span>
-                        +57 321 315 9836
+                        +57 312 532 3860
                     </a>
 </div>
 <div class="md:hidden flex items-center">
@@ -141,17 +148,18 @@
 <a class="block text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium py-3 px-4 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition" href="#services">Servicios</a>
 <a class="block text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium py-3 px-4 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition" href="#projects">Proyectos</a>
 <a class="block text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium py-3 px-4 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition" href="#why-us">Nosotros</a>
+<a class="block text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium py-3 px-4 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition" href="#social-proof">Reseñas</a>
 <a class="block text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium py-3 px-4 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition" href="#contact">Contacto</a>
 <div class="pt-4 space-y-3 border-t border-gray-100 dark:border-gray-700">
-<a class="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-3 rounded-xl font-semibold transition" href="https://wa.me/573213159836" target="_blank">
+<a class="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-3 rounded-xl font-semibold transition" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy.%20%C2%BFMe%20pueden%20asesorar%20sobre%20sus%20servicios%3F" target="_blank">
 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
 </svg>
 WhatsApp
 </a>
-<a class="flex items-center justify-center gap-2 bg-primary hover:bg-secondary text-white px-4 py-3 rounded-xl font-semibold transition" href="tel:+573213159836">
+<a class="flex items-center justify-center gap-2 bg-primary hover:bg-secondary text-white px-4 py-3 rounded-xl font-semibold transition" href="tel:+573125323860">
 <span class="material-icons-outlined text-sm">call</span>
-+57 321 315 9836
++57 312 532 3860
 </a>
 </div>
 </div>
@@ -168,7 +176,7 @@ WhatsApp
 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
 <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
 </span>
-                Expertos en Instalación en Bogotá y La Sabana
+                +5 Años de Experiencia &bull; Expertos en Instalación de Cargadores VE
             </div>
 <h1 class="text-4xl md:text-5xl lg:text-7xl font-display font-extrabold text-white leading-tight mb-6">
                 Lidera la Movilidad <br/>
@@ -178,7 +186,7 @@ WhatsApp
                 Instalaciones profesionales y certificadas de cargadores para vehículos eléctricos en tu hogar o empresa. Cumplimos con normativa RETIE.
             </p>
 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-<a class="bg-primary hover:bg-green-500 text-white px-8 py-4 rounded-xl text-lg font-bold transition transform hover:-translate-y-1 shadow-xl shadow-green-900/20 flex items-center justify-center gap-2" href="#contact">
+<a class="bg-primary hover:bg-green-500 text-white px-8 py-4 rounded-xl text-lg font-bold transition transform hover:-translate-y-1 shadow-xl shadow-green-900/20 flex items-center justify-center gap-2" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy%20y%20me%20interesa%20cotizar%20una%20*instalaci%C3%B3n%20de%20cargador%20para%20veh%C3%ADculo%20el%C3%A9ctrico*.%20%C2%BFMe%20pueden%20asesorar%3F" target="_blank">
                     Cotizar Instalación
                     <span class="material-icons-outlined">arrow_forward</span>
 </a>
@@ -188,6 +196,31 @@ WhatsApp
 </div>
 </div>
 </section>
+
+<!-- ═══════ BARRA DE ESTADÍSTICAS ═══════ -->
+<div class="bg-primary" id="stats-bar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
+      <div class="flex flex-col items-center">
+        <span class="text-4xl md:text-5xl font-extrabold leading-none stat-number" data-prefix="+" data-target="5" data-suffix="">0</span>
+        <span class="text-green-100 text-sm font-medium mt-1 uppercase tracking-wide">Años de experiencia</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-4xl md:text-5xl font-extrabold leading-none stat-number" data-prefix="+" data-target="100" data-suffix="">0</span>
+        <span class="text-green-100 text-sm font-medium mt-1 uppercase tracking-wide">Instalaciones realizadas</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-4xl md:text-5xl font-extrabold leading-none stat-number" data-prefix="" data-target="6" data-suffix="">0</span>
+        <span class="text-green-100 text-sm font-medium mt-1 uppercase tracking-wide">Ciudades con presencia</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-4xl md:text-5xl font-extrabold leading-none">24/7</span>
+        <span class="text-green-100 text-sm font-medium mt-1 uppercase tracking-wide">Atención al cliente</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <section class="py-24 bg-background-light dark:bg-background-dark" id="services">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="text-center max-w-3xl mx-auto mb-16">
@@ -195,61 +228,314 @@ WhatsApp
 <h3 class="text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white mb-4">Carga Inteligente Donde la Necesites</h3>
 <p class="text-gray-600 dark:text-gray-400 text-lg">Adaptamos nuestra tecnología a tus necesidades, ya sea para tu residencia privada o para grandes complejos.</p>
 </div>
-<div class="grid md:grid-cols-2 gap-8 lg:gap-12">
-<div class="group relative bg-surface-light dark:bg-surface-dark rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
-<div class="absolute top-0 left-0 w-full h-2 bg-primary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-<div class="aspect-w-16 aspect-h-9 h-64 overflow-hidden relative">
-<img alt="Cargador en garaje residencial" class="object-cover w-full h-full group-hover:scale-105 transition duration-700" src="img/Home Charging.jpg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-<div class="bg-primary p-3 rounded-lg text-white">
-<span class="material-icons-outlined text-3xl">home</span>
-</div>
-</div>
-</div>
-<div class="p-8">
-<h4 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Home Charging</h4>
-<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                            Carga tu vehículo con total comodidad y seguridad desde tu casa. Instalaciones personalizadas para garajes privados, optimizando el consumo energético de tu hogar.
-                        </p>
-<ul class="space-y-2 mb-6 text-gray-500 dark:text-gray-400">
-<li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Instalación certificada RETIE</li>
-<li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Gestión de potencia</li>
-<li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Mantenimiento preventivo</li>
-</ul>
-<a class="inline-flex items-center text-primary font-bold hover:text-secondary transition" href="#contact">
-                            Solicitar Home Charging <span class="material-icons-outlined ml-1">chevron_right</span>
-</a>
-</div>
-</div>
-<div class="group relative bg-surface-light dark:bg-surface-dark rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
-<div class="absolute top-0 left-0 w-full h-2 bg-primary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-<div class="aspect-w-16 aspect-h-9 h-64 overflow-hidden relative">
-<img alt="Estación de carga comercial" class="object-cover w-full h-full group-hover:scale-105 transition duration-700" src="img/Carga Comercial y Conjuntos.jpg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-<div class="bg-primary p-3 rounded-lg text-white">
-<span class="material-icons-outlined text-3xl">business</span>
-</div>
-</div>
-</div>
-<div class="p-8">
-<h4 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Carga Comercial y Conjuntos</h4>
-<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                            Soluciones escalables para oficinas, centros comerciales y conjuntos residenciales. Agrega valor a tu propiedad ofreciendo estaciones de carga compartidas.
-                        </p>
-<ul class="space-y-2 mb-6 text-gray-500 dark:text-gray-400">
-<li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Sistemas de cobro inteligente</li>
-<li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Balanceo de cargas</li>
-<li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Soporte técnico 24/7</li>
-</ul>
-<a class="inline-flex items-center text-primary font-bold hover:text-secondary transition" href="#contact">
-                            Solicitar Carga Comercial <span class="material-icons-outlined ml-1">chevron_right</span>
-</a>
-</div>
-</div>
+<div class="grid md:grid-cols-2 gap-8 lg:gap-10">
+
+  <!-- Tarjeta 1: Carga Residencial -->
+  <div class="group relative bg-surface-light dark:bg-surface-dark rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
+    <div class="absolute top-0 left-0 w-full h-2 bg-primary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+    <div class="aspect-w-16 aspect-h-9 h-80 overflow-hidden relative">
+      <img alt="Cargador en garaje residencial" class="object-cover w-full h-full group-hover:scale-105 transition duration-700" src="img/Home Charging.jpg"/>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+        <div class="bg-primary p-3 rounded-lg text-white">
+          <span class="material-icons-outlined text-3xl">home</span>
+        </div>
+      </div>
+    </div>
+    <div class="p-7">
+      <h4 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Carga Residencial</h4>
+      <p class="text-gray-600 dark:text-gray-300 mb-5 leading-relaxed">
+        Carga tu vehículo con total comodidad y seguridad desde tu casa. Instalaciones personalizadas para garajes privados, optimizando el consumo energético de tu hogar.
+      </p>
+      <ul class="space-y-2 mb-6 text-gray-500 dark:text-gray-400">
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Instalación certificada RETIE</li>
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Gestión de potencia del hogar</li>
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Mantenimiento preventivo</li>
+      </ul>
+      <a class="inline-flex items-center text-primary font-bold hover:text-secondary transition" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy%20y%20me%20interesa%20cotizar%20el%20servicio%20de%20*Carga%20Residencial*%20para%20mi%20veh%C3%ADculo%20el%C3%A9ctrico.%20%C2%BFMe%20pueden%20brindar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank">
+        Solicitar Carga Residencial <span class="material-icons-outlined ml-1">chevron_right</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Tarjeta 2: Carga Comunal -->
+  <div class="group relative bg-surface-light dark:bg-surface-dark rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
+    <div class="absolute top-0 left-0 w-full h-2 bg-primary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+    <div class="aspect-w-16 aspect-h-9 h-80 overflow-hidden relative">
+      <img alt="Estaciones de carga comunal en conjunto residencial" class="object-cover w-full h-full group-hover:scale-105 transition duration-700" src="img/WhatsApp Image 2026-02-21 at 3.30.47 PM.jpeg"/>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+        <div class="bg-primary p-3 rounded-lg text-white">
+          <span class="material-icons-outlined text-3xl">ev_station</span>
+        </div>
+      </div>
+    </div>
+    <div class="p-7">
+      <h4 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Carga Comunal</h4>
+      <p class="text-gray-600 dark:text-gray-300 mb-5 leading-relaxed">
+        Solución para administraciones de conjuntos residenciales que deciden implementar varios cargadores de uso compartido, optimizando el beneficio colectivo de los residentes.
+      </p>
+      <ul class="space-y-2 mb-6 text-gray-500 dark:text-gray-400">
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Múltiples puntos de carga compartidos</li>
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Sistemas de cobro inteligente</li>
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Balanceo de cargas del conjunto</li>
+      </ul>
+      <a class="inline-flex items-center text-primary font-bold hover:text-secondary transition" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy%20y%20me%20interesa%20cotizar%20el%20servicio%20de%20*Carga%20Comunal*%20para%20el%20conjunto%20residencial.%20%C2%BFMe%20pueden%20brindar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank">
+        Solicitar Carga Comunal <span class="material-icons-outlined ml-1">chevron_right</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Tarjeta 3: Carga Comercial -->
+  <div class="group relative bg-surface-light dark:bg-surface-dark rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
+    <div class="absolute top-0 left-0 w-full h-2 bg-primary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+    <div class="aspect-w-16 aspect-h-9 h-80 overflow-hidden relative">
+      <img alt="Estación de carga comercial" class="object-cover w-full h-full group-hover:scale-105 transition duration-700" src="img/Carga Comercial y Conjuntos.jpg"/>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+        <div class="bg-primary p-3 rounded-lg text-white">
+          <span class="material-icons-outlined text-3xl">business</span>
+        </div>
+      </div>
+    </div>
+    <div class="p-7">
+      <h4 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Carga Comercial</h4>
+      <p class="text-gray-600 dark:text-gray-300 mb-5 leading-relaxed">
+        Soluciones escalables para oficinas, centros comerciales y empresas. Agrega valor a tu negocio ofreciendo estaciones de carga a clientes y empleados.
+      </p>
+      <ul class="space-y-2 mb-6 text-gray-500 dark:text-gray-400">
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Infraestructura escalable</li>
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Monitoreo y gestión remota</li>
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Soporte técnico 24/7</li>
+      </ul>
+      <a class="inline-flex items-center text-primary font-bold hover:text-secondary transition" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy%20y%20me%20interesa%20cotizar%20el%20servicio%20de%20*Carga%20Comercial*%20para%20mi%20negocio%20o%20empresa.%20%C2%BFMe%20pueden%20brindar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank">
+        Solicitar Carga Comercial <span class="material-icons-outlined ml-1">chevron_right</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Tarjeta 4: Carga en Conjuntos Individual -->
+  <div class="group relative bg-surface-light dark:bg-surface-dark rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
+    <div class="absolute top-0 left-0 w-full h-2 bg-primary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+    <div class="aspect-w-16 aspect-h-9 h-80 overflow-hidden relative">
+      <img alt="Cargador individual en conjunto residencial" class="object-cover w-full h-full group-hover:scale-105 transition duration-700" src="img/552870180_122117248646979830_7350994498649728567_n.jpg"/>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+        <div class="bg-primary p-3 rounded-lg text-white">
+          <span class="material-icons-outlined text-3xl">apartment</span>
+        </div>
+      </div>
+    </div>
+    <div class="p-7">
+      <h4 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Carga Individual en Conjuntos</h4>
+      <p class="text-gray-600 dark:text-gray-300 mb-5 leading-relaxed">
+        Para residentes de conjuntos que desean su propio cargador privado en su parqueadero. Una solución exclusiva y personal sin depender de la infraestructura comunal.
+      </p>
+      <ul class="space-y-2 mb-6 text-gray-500 dark:text-gray-400">
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Cargador exclusivo por unidad</li>
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Instalación en parqueadero privado</li>
+        <li class="flex items-center gap-2"><span class="material-icons-outlined text-primary text-sm">check_circle</span> Asesoría con la administración</li>
+      </ul>
+      <a class="inline-flex items-center text-primary font-bold hover:text-secondary transition" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy%20y%20me%20interesa%20cotizar%20el%20servicio%20de%20*Carga%20Individual%20en%20Conjuntos*%20para%20mi%20parqueadero%20privado.%20%C2%BFMe%20pueden%20brindar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank">
+        Solicitar Carga Individual <span class="material-icons-outlined ml-1">chevron_right</span>
+      </a>
+    </div>
+  </div>
+
 </div>
 </div>
 </section>
-<section class="py-24 bg-green-50 dark:bg-green-900/10 overflow-hidden" id="social-proof">
+<section class="py-24 bg-surface-light dark:bg-background-dark" id="projects">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-primary font-bold tracking-wide uppercase text-sm mb-2">Galería</h2>
+<h3 class="text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white mb-4">Nuestros Proyectos Realizados</h3>
+<p class="text-gray-600 dark:text-gray-400 text-lg">Descubre cómo transformamos espacios residenciales y comerciales con tecnología de carga de vanguardia.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+  <!-- Proyecto 1 – Collage 3 fotos -->
+  <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72" onclick="openProjectModal('p1')">
+    <div class="w-full h-full grid gap-0.5" style="grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;">
+      <img alt="Proyecto 1 foto 1" class="row-span-2 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_1/IMG-20260221-WA0042.jpg"/>
+      <img alt="Proyecto 1 foto 2" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_1/IMG-20260221-WA0043.jpg"/>
+      <img alt="Proyecto 1 foto 3" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_1/IMG-20260221-WA0044.jpg"/>
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-90 transition-opacity duration-300">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-y-2 group-hover:translate-y-0">
+        <span class="bg-primary text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 shadow-xl text-sm">
+          <span class="material-icons-outlined text-base">visibility</span> Ver Proyecto
+        </span>
+      </div>
+      <div class="absolute bottom-0 left-0 p-6">
+        <span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full mb-2">Carga Individual</span>
+        <h4 class="text-white font-bold text-lg">Carga Individual en Conjunto</h4>
+        <p class="text-gray-300 text-sm flex items-center gap-1 mt-1"><span class="material-icons-outlined text-sm">place</span> Bogotá, D.C.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proyecto 2 -->
+  <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72" onclick="openProjectModal('p2')">
+    <div class="w-full h-full grid gap-0.5" style="grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;">
+      <img alt="Proyecto 2 foto 1" class="row-span-2 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_2/1.jpeg"/>
+      <img alt="Proyecto 2 foto 2" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_2/IMG-20260221-WA0041 (1).jpg"/>
+      <img alt="Proyecto 2 foto 3" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_2/IMG-20260221-WA0042 (1).jpg"/>
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-90 transition-opacity duration-300">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-y-2 group-hover:translate-y-0">
+        <span class="bg-primary text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 shadow-xl text-sm">
+          <span class="material-icons-outlined text-base">visibility</span> Ver Proyecto
+        </span>
+      </div>
+      <div class="absolute bottom-0 left-0 p-6">
+        <span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full mb-2">Carga Individual</span>
+        <h4 class="text-white font-bold text-lg">Carga Individual en Conjunto</h4>
+        <p class="text-gray-300 text-sm flex items-center gap-1 mt-1"><span class="material-icons-outlined text-sm">place</span> Bogotá, D.C.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proyecto 3 -->
+  <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72" onclick="openProjectModal('p3')">
+    <div class="w-full h-full grid gap-0.5" style="grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;">
+      <img alt="Proyecto 3 foto 1" class="row-span-2 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_3/1.jpg"/>
+      <img alt="Proyecto 3 foto 2" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_3/IMG-20260221-WA0035.jpg"/>
+      <img alt="Proyecto 3 foto 3" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_3/IMG-20260221-WA0036.jpg"/>
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-90 transition-opacity duration-300">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-y-2 group-hover:translate-y-0">
+        <span class="bg-primary text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 shadow-xl text-sm">
+          <span class="material-icons-outlined text-base">visibility</span> Ver Proyecto
+        </span>
+      </div>
+      <div class="absolute bottom-0 left-0 p-6">
+        <span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full mb-2">Carga Comercial</span>
+        <h4 class="text-white font-bold text-lg">Punto de Carga Comercial</h4>
+        <p class="text-gray-300 text-sm flex items-center gap-1 mt-1"><span class="material-icons-outlined text-sm">place</span> Centro Comercial, Bogotá</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proyecto 4 -->
+  <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72 md:col-span-2 lg:col-span-1" onclick="openProjectModal('p4')">
+    <div class="w-full h-full grid gap-0.5" style="grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;">
+      <img alt="Proyecto 4 foto 1" class="row-span-2 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_4/1.png"/>
+      <img alt="Proyecto 4 foto 2" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_4/IMG-20260221-WA0028.jpg"/>
+      <img alt="Proyecto 4 foto 3" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="img/proyectos/proyecto_4/IMG-20260221-WA0028.jpg"/>
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-90 transition-opacity duration-300">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-y-2 group-hover:translate-y-0">
+        <span class="bg-primary text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 shadow-xl text-sm">
+          <span class="material-icons-outlined text-base">visibility</span> Ver Proyecto
+        </span>
+      </div>
+      <div class="absolute bottom-0 left-0 p-6">
+        <span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full mb-2">Carga Individual</span>
+        <h4 class="text-white font-bold text-lg">BYD Yuan — Soporte Aéreo</h4>
+        <p class="text-gray-300 text-sm flex items-center gap-1 mt-1"><span class="material-icons-outlined text-sm">place</span> Bogotá, D.C.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proyecto 5 -->
+  <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72" onclick="openProjectModal('p5')">
+    <img alt="Estación de Carga Rápida" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="img/541923067_17849600352544125_4157416532366212953_n.jpeg"/>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-90 transition-opacity duration-300">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-y-2 group-hover:translate-y-0">
+        <span class="bg-primary text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 shadow-xl text-sm">
+          <span class="material-icons-outlined text-base">visibility</span> Ver Proyecto
+        </span>
+      </div>
+      <div class="absolute bottom-0 left-0 p-6">
+        <span class="inline-block px-3 py-1 bg-purple-600 text-white text-xs font-bold rounded-full mb-2">Pública</span>
+        <h4 class="text-white font-bold text-lg">Estación de Carga</h4>
+        <p class="text-gray-300 text-sm flex items-center gap-1 mt-1"><span class="material-icons-outlined text-sm">place</span> Salitre, Bogotá</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proyecto 6 -->
+  <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72" onclick="openProjectModal('p6')">
+    <img alt="Instalación en Sotano" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="img/554353947_122117245364979830_7887989551078597669_n.jpg"/>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-90 transition-opacity duration-300">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-y-2 group-hover:translate-y-0">
+        <span class="bg-primary text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 shadow-xl text-sm">
+          <span class="material-icons-outlined text-base">visibility</span> Ver Proyecto
+        </span>
+      </div>
+      <div class="absolute bottom-0 left-0 p-6">
+        <span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full mb-2">Mantenimiento</span>
+        <h4 class="text-white font-bold text-lg">Revisión Técnica</h4>
+        <p class="text-gray-300 text-sm flex items-center gap-1 mt-1"><span class="material-icons-outlined text-sm">place</span> Cajicá</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</section>
+<section class="py-24 bg-gray-50 dark:bg-gray-800/50 relative overflow-hidden" id="why-us">
+<div class="absolute top-0 right-0 -mt-20 -mr-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-96 h-96 bg-green-300/10 rounded-full blur-3xl"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white">¿Por qué elegir Kinec Energy?</h2>
+<div class="w-24 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
+</div>
+<div class="grid md:grid-cols-3 gap-8 text-center">
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+<div class="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-icons-outlined text-3xl">verified_user</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Seguridad RETIE</h3>
+<p class="text-gray-600 dark:text-gray-400">
+                        Todas nuestras instalaciones cumplen estrictamente con el Reglamento Técnico de Instalaciones Eléctricas, garantizando tu seguridad y la de tu vehículo.
+                    </p>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+<div class="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-icons-outlined text-3xl">map</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Cobertura Nacional</h3>
+<p class="text-gray-600 dark:text-gray-400">
+                        Presencia activa en Bogotá, Sabana de Bogotá, Cundinamarca, Bucaramanga, Medellín y Villavicencio. Llevamos la movilidad eléctrica a donde la necesitas.
+                    </p>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+<div class="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-icons-outlined text-3xl">schedule</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Atención 24/7</h3>
+<p class="text-gray-600 dark:text-gray-400">
+                        Estamos disponibles las 24 horas del día, los 7 días de la semana. Cuando tengas una urgencia o consulta, siempre tendrás a alguien de Kinec Energy para atenderte.
+                    </p>
+</div>
+</div>
+
+<!-- Bloque de presencia por ciudades -->
+<div class="mt-16 text-center">
+  <p class="text-sm font-semibold text-primary uppercase tracking-widest mb-6">Ciudades con presencia</p>
+  <div class="flex flex-wrap justify-center gap-3">
+    <span class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm text-gray-700 dark:text-gray-200 font-medium text-sm">
+      <span class="material-icons-outlined text-primary text-base">location_on</span> Bogotá, D.C.
+    </span>
+    <span class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm text-gray-700 dark:text-gray-200 font-medium text-sm">
+      <span class="material-icons-outlined text-primary text-base">location_on</span> Sabana de Bogotá
+    </span>
+    <span class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm text-gray-700 dark:text-gray-200 font-medium text-sm">
+      <span class="material-icons-outlined text-primary text-base">location_on</span> Cundinamarca
+    </span>
+    <span class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm text-gray-700 dark:text-gray-200 font-medium text-sm">
+      <span class="material-icons-outlined text-primary text-base">location_on</span> Bucaramanga
+    </span>
+    <span class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm text-gray-700 dark:text-gray-200 font-medium text-sm">
+      <span class="material-icons-outlined text-primary text-base">location_on</span> Medellín
+    </span>
+    <span class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm text-gray-700 dark:text-gray-200 font-medium text-sm">
+      <span class="material-icons-outlined text-primary text-base">location_on</span> Villavicencio
+    </span>
+  </div>
+</div>
+
+</div>
+</section>
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="text-center max-w-3xl mx-auto mb-16">
 <h2 class="text-primary font-bold tracking-wide uppercase text-sm mb-2">Reseñas de Confianza</h2>
@@ -290,132 +576,10 @@ WhatsApp
 <span class="material-icons-outlined text-sm mr-1">location_on</span> Cobertura Nacional
 </span>
 </div>
-<a class="inline-flex items-center justify-center bg-primary hover:bg-secondary text-white px-8 py-4 rounded-xl text-lg font-bold transition shadow-lg shadow-green-500/20 w-full sm:w-auto" href="#contact">
+<a class="inline-flex items-center justify-center bg-primary hover:bg-secondary text-white px-8 py-4 rounded-xl text-lg font-bold transition shadow-lg shadow-green-500/20 w-full sm:w-auto" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy.%20%C2%A1Quiero%20mi%20instalaci%C3%B3n%20de%20cargador%20para%20veh%C3%ADculo%20el%C3%A9ctrico!%20%C2%BFMe%20pueden%20contactar%3F" target="_blank">
                     ¡Quiero mi instalación ahora!
                     <span class="material-icons-outlined ml-2">bolt</span>
 </a>
-</div>
-</div>
-</div>
-</section>
-<section class="py-24 bg-gray-50 dark:bg-gray-800/50 relative overflow-hidden" id="why-us">
-<div class="absolute top-0 right-0 -mt-20 -mr-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
-<div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-96 h-96 bg-green-300/10 rounded-full blur-3xl"></div>
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-<div class="text-center mb-16">
-<h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white">¿Por qué elegir Kinec Energy?</h2>
-<div class="w-24 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
-</div>
-<div class="grid md:grid-cols-3 gap-8 text-center">
-<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
-<div class="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
-<span class="material-icons-outlined text-3xl">verified_user</span>
-</div>
-<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Seguridad RETIE</h3>
-<p class="text-gray-600 dark:text-gray-400">
-                        Todas nuestras instalaciones cumplen estrictamente con el Reglamento Técnico de Instalaciones Eléctricas, garantizando tu seguridad y la de tu vehículo.
-                    </p>
-</div>
-<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
-<div class="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
-<span class="material-icons-outlined text-3xl">map</span>
-</div>
-<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Cobertura Bogotá/Sabana</h3>
-<p class="text-gray-600 dark:text-gray-400">
-                        Conocemos la infraestructura local. Ofrecemos servicio rápido y especializado en toda Bogotá y municipios aledaños de la Sabana.
-                    </p>
-</div>
-<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
-<div class="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
-<span class="material-icons-outlined text-3xl">speed</span>
-</div>
-<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Instalación Rápida</h3>
-<p class="text-gray-600 dark:text-gray-400">
-                        Proceso eficiente desde la cotización hasta la puesta en marcha. No te hacemos esperar para que empieces a disfrutar de tu movilidad eléctrica.
-                    </p>
-</div>
-</div>
-</div>
-</section>
-<section class="py-24 bg-surface-light dark:bg-background-dark" id="projects">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="text-center max-w-3xl mx-auto mb-16">
-<h2 class="text-primary font-bold tracking-wide uppercase text-sm mb-2">Galería</h2>
-<h3 class="text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white mb-4">Nuestros Proyectos Realizados</h3>
-<p class="text-gray-600 dark:text-gray-400 text-lg">Descubre cómo transformamos espacios residenciales y comerciales con tecnología de carga de vanguardia.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-<div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72">
-<img alt="Instalación Residencial en Chía" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="img/539451971_17849600286544125_6137120928280499646_n.jpeg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-90 transition-opacity duration-300">
-<div class="absolute bottom-0 left-0 p-6">
-<span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full mb-2">Residencial</span>
-<h4 class="text-white font-bold text-lg">Instalación Residencial</h4>
-<p class="text-gray-300 text-sm flex items-center gap-1 mt-1">
-<span class="material-icons-outlined text-sm">place</span> Chía, Cundinamarca
-                        </p>
-</div>
-</div>
-</div>
-<div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72">
-<img alt="Carga Comercial en Centro Empresarial" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="img/540024092_17849600301544125_6083214763981362211_n.jpeg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-90 transition-opacity duration-300">
-<div class="absolute bottom-0 left-0 p-6">
-<span class="inline-block px-3 py-1 bg-blue-600 text-white text-xs font-bold rounded-full mb-2">Comercial</span>
-<h4 class="text-white font-bold text-lg">Carga Comercial</h4>
-<p class="text-gray-300 text-sm flex items-center gap-1 mt-1">
-<span class="material-icons-outlined text-sm">place</span> Centro Empresarial Bogotá
-                        </p>
-</div>
-</div>
-</div>
-<div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72">
-<img alt="Cargador en Conjunto Residencial" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="img/540033543_17849599821544125_8820094920728247534_n.jpeg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-90 transition-opacity duration-300">
-<div class="absolute bottom-0 left-0 p-6">
-<span class="inline-block px-3 py-1 bg-green-500 text-white text-xs font-bold rounded-full mb-2">Conjunto</span>
-<h4 class="text-white font-bold text-lg">Carga Comunitaria</h4>
-<p class="text-gray-300 text-sm flex items-center gap-1 mt-1">
-<span class="material-icons-outlined text-sm">place</span> Rosales, Bogotá
-                        </p>
-</div>
-</div>
-</div>
-<div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72 md:col-span-2 lg:col-span-1">
-<img alt="Punto de Carga en Parqueadero" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="img/540269399_17849600184544125_3689972382937049787_n.jpeg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-90 transition-opacity duration-300">
-<div class="absolute bottom-0 left-0 p-6">
-<span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full mb-2">Residencial</span>
-<h4 class="text-white font-bold text-lg">Wallbox Privado</h4>
-<p class="text-gray-300 text-sm flex items-center gap-1 mt-1">
-<span class="material-icons-outlined text-sm">place</span> La Calera
-                        </p>
-</div>
-</div>
-</div>
-<div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72">
-<img alt="Estación de Carga Rápida" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="img/541923067_17849600352544125_4157416532366212953_n.jpeg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-90 transition-opacity duration-300">
-<div class="absolute bottom-0 left-0 p-6">
-<span class="inline-block px-3 py-1 bg-purple-600 text-white text-xs font-bold rounded-full mb-2">Pública</span>
-<h4 class="text-white font-bold text-lg">Estación de Carga</h4>
-<p class="text-gray-300 text-sm flex items-center gap-1 mt-1">
-<span class="material-icons-outlined text-sm">place</span> Salitre, Bogotá
-                        </p>
-</div>
-</div>
-</div>
-<div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer h-72">
-<img alt="Instalación en Sotano" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="img/554353947_122117245364979830_7887989551078597669_n.jpg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-90 transition-opacity duration-300">
-<div class="absolute bottom-0 left-0 p-6">
-<span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full mb-2">Mantenimiento</span>
-<h4 class="text-white font-bold text-lg">Revisión Técnica</h4>
-<p class="text-gray-300 text-sm flex items-center gap-1 mt-1">
-<span class="material-icons-outlined text-sm">place</span> Cajicá
-                        </p>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -448,9 +612,10 @@ WhatsApp
 <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="message">Mensaje</label>
 <textarea class="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-200 dark:border-gray-700 focus:border-primary focus:ring-primary text-gray-900 dark:text-white" id="message" placeholder="¿En qué podemos ayudarte?" rows="4"></textarea>
 </div>
-<button class="w-full bg-primary hover:bg-secondary text-white font-bold py-4 rounded-xl transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5" type="button">
+<button id="form-submit-btn" class="w-full bg-primary hover:bg-secondary text-white font-bold py-4 rounded-xl transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5" type="button" onclick="sendEmail()">
                             Enviar Solicitud
                         </button>
+<div id="form-feedback" class="hidden mt-4 px-4 py-3 rounded-xl text-sm font-semibold text-center"></div>
 </form>
 </div>
 <div class="w-full md:w-1/2 bg-primary text-white p-8 md:p-12 lg:p-16 flex flex-col justify-center relative overflow-hidden">
@@ -464,8 +629,8 @@ WhatsApp
 </div>
 <div>
 <p class="text-green-100 text-sm mb-1">Escríbenos a</p>
-<a class="text-lg md:text-xl font-semibold break-all hover:text-green-200 transition" href="mailto:kinecenergysolucioneselectrica@gmail.com">
-                                        kinecenergysolucioneselectrica@gmail.com
+<a class="text-lg md:text-xl font-semibold break-all hover:text-green-200 transition" href="mailto:Kinecenergysolucioneselectrica@gmail.com">
+                                        Kinecenergysolucioneselectrica@gmail.com
                                     </a>
 </div>
 </div>
@@ -475,8 +640,12 @@ WhatsApp
 </div>
 <div>
 <p class="text-green-100 text-sm mb-1">Llámanos o WhatsApp</p>
-<a class="text-2xl md:text-3xl font-bold hover:text-green-200 transition" href="tel:+573213159836">
-                                        +57 321 315 9836
+<a class="text-2xl md:text-3xl font-bold hover:text-green-200 transition" href="tel:+573125323860">
+                                        +57 312 532 3860
+                                    </a>
+<p class="text-green-100 text-sm mt-2 mb-0.5">Línea secundaria</p>
+<a class="text-lg font-semibold hover:text-green-200 transition" href="tel:+573204575395">
+                                        +57 320 457 5395
                                     </a>
 </div>
 </div>
@@ -494,7 +663,8 @@ WhatsApp
 </div>
 <div class="mt-12 pt-8 border-t border-white/20">
 <p class="text-green-100">Horario de Atención:</p>
-<p class="font-semibold">Lunes a Sábado: 8:00 AM - 6:00 PM</p>
+<p class="font-bold text-lg flex items-center gap-2"><span class="material-icons-outlined text-base">schedule</span> 24 horas / 7 días a la semana</p>
+<p class="text-green-100 text-sm mt-1">Siempre disponibles para ti.</p>
 </div>
 </div>
 </div>
@@ -504,64 +674,112 @@ WhatsApp
 <footer class="bg-gray-900 text-white pt-16 pb-8 border-t border-gray-800">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-<div>
-<div class="flex items-center gap-2 mb-4">
-<span class="material-icons-outlined text-primary text-3xl">electric_car</span>
-<span class="font-display font-bold text-xl tracking-tight">
-                            Kinec <span class="text-primary">Energy</span>
-</span>
+
+  <!-- Col 1: Marca -->
+  <div>
+    <div class="flex items-center gap-2 mb-4">
+      <span class="material-icons-outlined text-primary text-3xl">electric_car</span>
+      <span class="font-display font-bold text-xl tracking-tight">Kinec <span class="text-primary">Energy</span></span>
+    </div>
+    <p class="text-gray-400 text-sm leading-relaxed mb-5">
+      Empresa colombiana especializada en instalación certificada de cargadores para vehículos eléctricos. Cumplimiento RETIE y atención 24/7.
+    </p>
+    <!-- Redes sociales -->
+    <div class="flex gap-3">
+      <a class="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#1877F2] transition duration-300" href="https://www.facebook.com/profile.php?id=61579394902055" target="_blank" aria-label="Facebook">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a class="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gradient-to-br hover:from-[#833AB4] hover:to-[#F77737] transition duration-300" href="https://www.instagram.com/kineticenergysas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" aria-label="Instagram">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </a>
+      <a class="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#25D366] transition duration-300" href="https://wa.me/573125323860?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20web%20de%20Kinec%20Energy.%20%C2%BFMe%20pueden%20asesorar%3F" target="_blank" aria-label="WhatsApp">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Col 2: Navegación -->
+  <div>
+    <h4 class="text-lg font-bold mb-4 text-white">Navegación</h4>
+    <ul class="space-y-2">
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#home"><span class="material-icons-outlined text-base">home</span> Inicio</a></li>
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#services"><span class="material-icons-outlined text-base">bolt</span> Servicios</a></li>
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#projects"><span class="material-icons-outlined text-base">work</span> Proyectos</a></li>
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#why-us"><span class="material-icons-outlined text-base">groups</span> Nosotros</a></li>
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#social-proof"><span class="material-icons-outlined text-base">star</span> Reseñas</a></li>
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#contact"><span class="material-icons-outlined text-base">mail</span> Contacto</a></li>
+    </ul>
+  </div>
+
+  <!-- Col 3: Servicios -->
+  <div>
+    <h4 class="text-lg font-bold mb-4 text-white">Servicios</h4>
+    <ul class="space-y-2">
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#services"><span class="material-icons-outlined text-base">house</span> Carga Residencial</a></li>
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#services"><span class="material-icons-outlined text-base">apartment</span> Carga Comunal</a></li>
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#services"><span class="material-icons-outlined text-base">store</span> Carga Comercial</a></li>
+      <li><a class="text-gray-400 hover:text-primary transition text-sm flex items-center gap-1" href="#services"><span class="material-icons-outlined text-base">local_parking</span> Carga Individual en Conjuntos</a></li>
+    </ul>
+    <div class="mt-5 pt-5 border-t border-gray-800">
+      <p class="text-gray-500 text-xs mb-2 uppercase tracking-wide font-semibold">Cobertura</p>
+      <div class="flex flex-wrap gap-1">
+        <span class="text-xs bg-gray-800 text-gray-400 px-2 py-0.5 rounded-full">Bogotá</span>
+        <span class="text-xs bg-gray-800 text-gray-400 px-2 py-0.5 rounded-full">Sabana</span>
+        <span class="text-xs bg-gray-800 text-gray-400 px-2 py-0.5 rounded-full">Cundinamarca</span>
+        <span class="text-xs bg-gray-800 text-gray-400 px-2 py-0.5 rounded-full">Bucaramanga</span>
+        <span class="text-xs bg-gray-800 text-gray-400 px-2 py-0.5 rounded-full">Medellín</span>
+        <span class="text-xs bg-gray-800 text-gray-400 px-2 py-0.5 rounded-full">Villavicencio</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Col 4: Contacto -->
+  <div>
+    <h4 class="text-lg font-bold mb-4 text-white">Contacto</h4>
+    <ul class="space-y-4">
+      <li class="flex items-start gap-3">
+        <span class="material-icons-outlined text-primary mt-0.5">call</span>
+        <div>
+          <a href="tel:+573125323860" class="text-gray-300 hover:text-primary transition text-sm font-semibold block">+57 312 532 3860</a>
+          <a href="tel:+573204575395" class="text-gray-400 hover:text-primary transition text-sm block">+57 320 457 5395</a>
+        </div>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="material-icons-outlined text-primary mt-0.5">email</span>
+        <a href="mailto:Kinecenergysolucioneselectrica@gmail.com" class="text-gray-400 hover:text-primary transition text-sm break-all">Kinecenergysolucioneselectrica@gmail.com</a>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="material-icons-outlined text-primary mt-0.5">schedule</span>
+        <div>
+          <p class="text-gray-300 text-sm font-semibold">24 horas / 7 días</p>
+          <p class="text-gray-500 text-xs">Siempre disponibles para ti</p>
+        </div>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="material-icons-outlined text-primary mt-0.5">location_on</span>
+        <div>
+          <p class="text-gray-300 text-sm font-semibold">Bogotá D.C., Colombia</p>
+          <p class="text-gray-500 text-xs">Cobertura nacional</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
 </div>
-<p class="text-gray-400 text-sm leading-relaxed">
-                        Impulsando el futuro de la movilidad en Colombia con soluciones de carga seguras, eficientes y sostenibles.
-                    </p>
-</div>
-<div>
-<h4 class="text-lg font-bold mb-4 text-white">Enlaces Rápidos</h4>
-<ul class="space-y-2">
-<li><a class="text-gray-400 hover:text-primary transition text-sm" href="#home">Inicio</a></li>
-<li><a class="text-gray-400 hover:text-primary transition text-sm" href="#services">Servicios</a></li>
-<li><a class="text-gray-400 hover:text-primary transition text-sm" href="#why-us">Nosotros</a></li>
-<li><a class="text-gray-400 hover:text-primary transition text-sm" href="#contact">Contacto</a></li>
-</ul>
-</div>
-<div>
-<h4 class="text-lg font-bold mb-4 text-white">Servicios</h4>
-<ul class="space-y-2">
-<li><a class="text-gray-400 hover:text-primary transition text-sm" href="#">Instalación Residencial</a></li>
-<li><a class="text-gray-400 hover:text-primary transition text-sm" href="#">Carga para Flotas</a></li>
-<li><a class="text-gray-400 hover:text-primary transition text-sm" href="#">Mantenimiento Preventivo</a></li>
-<li><a class="text-gray-400 hover:text-primary transition text-sm" href="#">Asesoría Técnica</a></li>
-</ul>
-</div>
-<div>
-<h4 class="text-lg font-bold mb-4 text-white">Síguenos</h4>
-<div class="flex space-x-4">
-<a class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#1877F2] transition duration-300" href="https://www.facebook.com/profile.php?id=61579394902055" target="_blank" aria-label="Facebook">
-<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-</svg>
-</a>
-<a class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gradient-to-r hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#F77737] transition duration-300" href="https://www.instagram.com/kinecenergysolucioneselectrica?igsh=MWFqMmN2aTBxYm0yZQ==" target="_blank" aria-label="Instagram">
-<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-</svg>
-</a>
-<a class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#25D366] transition duration-300" href="https://wa.me/573213159836" target="_blank" aria-label="WhatsApp">
-<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-</svg>
-</a>
-</div>
-</div>
-</div>
+
+<!-- Bottom bar -->
 <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-<p class="text-gray-500 text-sm text-center md:text-left">
-                    © 2023 Kinec Energy. Todos los derechos reservados.
-                </p>
-<div class="flex space-x-6">
-<a class="text-gray-500 hover:text-gray-300 text-sm" href="#">Política de Privacidad</a>
-<a class="text-gray-500 hover:text-gray-300 text-sm" href="#">Términos de Servicio</a>
-</div>
+  <div class="flex items-center gap-3">
+    <span class="material-icons-outlined text-primary text-xl">electric_car</span>
+    <p class="text-gray-500 text-sm text-center md:text-left">
+      © 2026 <span class="text-gray-400 font-semibold">Kinec Energy</span>. Todos los derechos reservados.
+    </p>
+  </div>
+  <div class="flex flex-wrap justify-center gap-4">
+    <span class="text-gray-600 text-sm flex items-center gap-1"><span class="material-icons-outlined text-base text-primary">verified</span> Certificación RETIE</span>
+    <span class="text-gray-600 text-sm flex items-center gap-1"><span class="material-icons-outlined text-base text-primary">security</span> Instalaciones Seguras</span>
+    <span class="text-gray-600 text-sm flex items-center gap-1"><span class="material-icons-outlined text-base text-primary">eco</span> +5 Años de Experiencia</span>
+  </div>
 </div>
 </div>
 </footer>
@@ -573,7 +791,7 @@ WhatsApp
 </button>
 
 <!-- Botón de WhatsApp -->
-<a aria-label="Chat on WhatsApp" class="bg-[#25D366] hover:bg-[#20bd5a] text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-all" href="https://wa.me/573213159836">
+<a aria-label="Chat on WhatsApp" class="bg-[#25D366] hover:bg-[#20bd5a] text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-all" href="https://wa.me/573125323860">
 <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
 </svg>
@@ -581,6 +799,75 @@ WhatsApp
 </div>
 
 <script>
+    // Enviar formulario a WhatsApp
+    function sendWhatsApp() {
+      var name = document.getElementById('name').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var type = document.getElementById('type').value;
+      var msg = document.getElementById('message').value.trim();
+      var text = 'Hola, vengo desde la página web de Kinec Energy y quiero solicitar información.';
+      if (name)  text += '\n*Nombre:* ' + name;
+      if (email) text += '\n*Correo:* ' + email;
+      if (type)  text += '\n*Servicio:* ' + type;
+      if (msg)   text += '\n*Mensaje:* ' + msg;
+      window.open('https://wa.me/573125323860?text=' + encodeURIComponent(text), '_blank');
+    }
+
+    // Enviar formulario por correo electrónico (EmailJS)
+    // ⚠️ CONFIGURACIÓN REQUERIDA:
+    // 1. Crea cuenta en https://www.emailjs.com
+    // 2. Conecta tu cuenta de Gmail en Email Services
+    // 3. Crea un Email Template con las variables: {{from_name}}, {{from_email}}, {{service_type}}, {{message}}
+    // 4. Reemplaza YOUR_PUBLIC_KEY, YOUR_SERVICE_ID y YOUR_TEMPLATE_ID con tus valores reales
+    function sendEmail() {
+      var name    = document.getElementById('name').value.trim();
+      var email   = document.getElementById('email').value.trim();
+      var type    = document.getElementById('type').value;
+      var msg     = document.getElementById('message').value.trim();
+      var btn     = document.getElementById('form-submit-btn');
+      var feedback = document.getElementById('form-feedback');
+
+      if (!name || !email || !msg) {
+        feedback.className = 'mt-4 px-4 py-3 rounded-xl text-sm font-semibold text-center bg-red-100 text-red-700';
+        feedback.textContent = 'Por favor completa todos los campos obligatorios.';
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = 'Enviando...';
+      feedback.className = 'hidden';
+
+      emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+        from_name:    name,
+        from_email:   email,
+        service_type: type,
+        message:      msg
+      })
+      .then(function() {
+        btn.textContent = '✓ Mensaje enviado';
+        btn.classList.remove('bg-primary', 'hover:bg-secondary');
+        btn.classList.add('bg-green-600');
+        feedback.className = 'mt-4 px-4 py-3 rounded-xl text-sm font-semibold text-center bg-green-100 text-green-800';
+        feedback.textContent = '¡Tu mensaje fue enviado con éxito! Te contactaremos pronto.';
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
+        setTimeout(function() {
+          btn.disabled = false;
+          btn.textContent = 'Enviar Solicitud';
+          btn.classList.remove('bg-green-600');
+          btn.classList.add('bg-primary', 'hover:bg-secondary');
+          feedback.className = 'hidden';
+        }, 5000);
+      }, function(error) {
+        console.error('EmailJS error:', error);
+        btn.disabled = false;
+        btn.textContent = 'Enviar Solicitud';
+        feedback.className = 'mt-4 px-4 py-3 rounded-xl text-sm font-semibold text-center bg-red-100 text-red-700';
+        feedback.textContent = 'Error al enviar el mensaje. Inténtalo de nuevo o escóbenos directamente.';
+      });
+    }
+
     // Menú hamburguesa móvil
     const hamburgerBtn = document.getElementById('hamburger-btn');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -688,5 +975,227 @@ WhatsApp
             observer.observe(el);
         });
     })();
+</script>
+
+<!-- ══════════════ MODAL PROYECTOS ══════════════ -->
+<div id="project-modal" class="fixed inset-0 z-[9999] flex items-center justify-center p-4 hidden" role="dialog" aria-modal="true">
+  <!-- Backdrop -->
+  <div id="modal-backdrop" class="absolute inset-0 bg-black/75 backdrop-blur-sm" onclick="closeProjectModal()"></div>
+  <!-- Contenedor -->
+  <div class="relative z-10 bg-white dark:bg-gray-900 rounded-2xl shadow-2xl w-full max-w-3xl max-h-[90vh] overflow-hidden flex flex-col">
+    <!-- Header -->
+    <div class="flex items-center justify-between px-6 py-4 border-b border-gray-100 dark:border-gray-700">
+      <div>
+        <span id="modal-badge" class="inline-block px-3 py-1 rounded-full text-white text-xs font-bold mb-1"></span>
+        <h3 id="modal-title" class="text-xl font-bold text-gray-900 dark:text-white"></h3>
+        <p id="modal-location" class="text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1 mt-0.5">
+          <span class="material-icons-outlined text-sm">place</span><span></span>
+        </p>
+      </div>
+      <button onclick="closeProjectModal()" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition ml-4">
+        <span class="material-icons-outlined text-3xl">close</span>
+      </button>
+    </div>
+    <!-- Carrusel -->
+    <div class="relative bg-black overflow-hidden" style="height:420px">
+      <div id="carousel-track" class="flex h-full" style="transition:transform 0.4s ease;"></div>
+      <button id="btn-prev" onclick="carouselMove(-1)" class="absolute left-3 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/75 text-white rounded-full p-2 transition z-10">
+        <span class="material-icons-outlined">chevron_left</span>
+      </button>
+      <button id="btn-next" onclick="carouselMove(1)" class="absolute right-3 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/75 text-white rounded-full p-2 transition z-10">
+        <span class="material-icons-outlined">chevron_right</span>
+      </button>
+      <div id="carousel-dots" class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-10"></div>
+    </div>
+    <!-- Descripción -->
+    <div class="px-6 py-5 border-t border-gray-100 dark:border-gray-700 overflow-y-auto" style="max-height:160px">
+      <p id="modal-description" class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+const PROJECTS = {
+  p1: {
+    title: 'Carga Individual en Conjunto',
+    location: 'Bogotá, D.C.',
+    badge: 'Carga Individual',
+    badgeColor: '#16a34a',
+    description: 'En este proyecto se realizó la instalación de un cargador Wallbox para un vehículo eléctrico Volvo XC30, dentro de un conjunto residencial en la ciudad de Bogotá. Se ejecutó el tendido de una acometida eléctrica dedicada de 40 metros desde el tablero de distribución del parqueadero hasta el punto de carga privado del residente, garantizando una conexión segura, ordenada y certificada bajo la norma RETIE. Se instalaron las protecciones eléctricas necesarias (breaker dedicado y protección diferencial) para salvaguardar tanto el vehículo como la instalación eléctrica del conjunto. Este tipo de servicio permite a cada propietario contar con su propio cargador exclusivo sin depender de la infraestructura comunal, con monitoreo remoto desde la app Wallbox y total tranquilidad en cuanto a seguridad eléctrica.',
+    media: [
+      { type: 'video', src: 'img/proyectos/proyecto_1/VID-20260221-WA0055.mp4' },
+      { type: 'image', src: 'img/proyectos/proyecto_1/IMG-20260221-WA0042.jpg' },
+      { type: 'image', src: 'img/proyectos/proyecto_1/IMG-20260221-WA0043.jpg' },
+      { type: 'image', src: 'img/proyectos/proyecto_1/IMG-20260221-WA0044.jpg' },
+    ]
+  },
+  p2: {
+    title: 'Carga Individual en Conjunto',
+    location: 'Bogotá, D.C.',
+    badge: 'Carga Individual',
+    badgeColor: '#16a34a',
+    description: 'Este proyecto representó un reto técnico particular: la acometida eléctrica del inmueble no contaba con conductor de tierra, elemento indispensable para el correcto y seguro funcionamiento del cargador Wallbox. Para solucionarlo, el equipo de Kinec Energy realizó el tendido de la puesta a tierra desde el piso 8, donde se encuentran ubicados todos los medidores del conjunto residencial. Se instaló tubería conduit de 2 pulgadas desde el cuarto de medidores hasta el nivel del parqueadero del cliente, dejando la infraestructura lista para futuras instalaciones en el edificio. Se utilizaron cajas de paso intermedias y cortacircuitos tipo cuchilla de última generación para garantizar la protección del circuito. El resultado fue una instalación ordenada, segura y certificada bajo norma RETIE, que permite al residente cargar su vehículo eléctrico de forma óptima desde su propio parqueadero.',
+    media: [
+      { type: 'video', src: 'img/proyectos/proyecto_2/1.mp4' },
+      { type: 'video', src: 'img/proyectos/proyecto_2/2.mp4' },
+      { type: 'image', src: 'img/proyectos/proyecto_2/1.jpeg' },
+      { type: 'image', src: "img/proyectos/proyecto_2/IMG-20260221-WA0041 (1).jpg" },
+      { type: 'image', src: "img/proyectos/proyecto_2/IMG-20260221-WA0042 (1).jpg" },
+    ]
+  },
+  p3: {
+    title: 'Punto de Carga Comercial',
+    location: 'Centro Comercial Pleno Centro, Bogotá',
+    badge: 'Carga Comercial',
+    badgeColor: '#2563eb',
+    description: 'Entrega de punto de carga eléctrico realizada el 20 de febrero en el Centro Comercial Pleno Centro, ubicado sobre la calle Jiménez en el centro de Bogotá. En este proyecto se destacó la importancia de la estética y el cumplimiento normativo: la acometida fue monofásica de 110 voltios, instalada de forma limpia y ordenada, respetando la imagen del local y del centro comercial. Kinec Energy realizó toda la instalación bajo los parámetros del Reglamento Técnico de Instalaciones Eléctricas (RETIE), garantizando seguridad tanto para el propietario como para los usuarios del punto de carga. Un trabajo más que demuestra que la movilidad eléctrica puede integrarse con elegancia en espacios comerciales.',
+    media: [
+      { type: 'video', src: 'img/proyectos/proyecto_3/VID-20260221-WA0039.mp4' },
+      { type: 'image', src: 'img/proyectos/proyecto_3/1.jpg' },
+      { type: 'image', src: 'img/proyectos/proyecto_3/IMG-20260221-WA0032.jpg' },
+      { type: 'image', src: 'img/proyectos/proyecto_3/IMG-20260221-WA0035.jpg' },
+      { type: 'image', src: 'img/proyectos/proyecto_3/IMG-20260221-WA0036.jpg' },
+    ]
+  },
+  p4: {
+    title: 'BYD Yuan — Soporte Aéreo',
+    location: 'Bogotá, D.C.',
+    badge: 'Carga Individual',
+    badgeColor: '#16a34a',
+    description: 'Proyecto de instalación de cargador para vehículo eléctrico BYD Yuan UL que demandó una solución creativa: al no contar con una pared o superficie disponible para fijar el cargador, el equipo de Kinec Energy diseñó e instaló un soporte aéreo personalizado que permite sostener el equipo de forma segura y estable. La acometida eléctrica fue de 75 metros desde el armario principal del cliente hasta el punto de carga, utilizando los calibres de conductor adecuados para la potencia requerida. Toda la tubería fue instalada con criterios estéticos y técnicos, con los dispositivos de protección correctos (breaker dedicado y diferencial). Un ejemplo de cómo Kinec Energy encuentra soluciones donde otros ven obstáculos.',
+    media: [
+      { type: 'video', src: 'img/proyectos/proyecto_4/VID-20260221-WA0026.mp4' },
+      { type: 'image', src: 'img/proyectos/proyecto_4/1.png' },
+      { type: 'image', src: 'img/proyectos/proyecto_4/IMG-20260221-WA0028.jpg' },
+    ]
+  },
+  p5: {
+    title: 'Estación de Carga',
+    location: 'Salitre, Bogotá',
+    badge: 'Pública',
+    badgeColor: '#7c3aed',
+    description: 'Instalación de estación de carga de acceso público en zona comercial. Infraestructura robusta con cargadores de carga rápida, señalización y sistema de pago integrado.',
+    media: [{ type: 'image', src: 'img/541923067_17849600352544125_4157416532366212953_n.jpeg' }]
+  },
+  p6: {
+    title: 'Revisión Técnica',
+    location: 'Cajicá',
+    badge: 'Mantenimiento',
+    badgeColor: '#16a34a',
+    description: 'Servicio de mantenimiento preventivo y revisión técnica de instalaciones eléctricas para carga de vehículos. Diagnóstico completo, limpieza de conexiones, verificación de protecciones y certificación de seguridad.',
+    media: [{ type: 'image', src: 'img/554353947_122117245364979830_7887989551078597669_n.jpg' }]
+  },
+};
+
+let carouselIndex = 0;
+let carouselItems = [];
+
+function openProjectModal(projectId) {
+  const p = PROJECTS[projectId];
+  if (!p) return;
+  const badge = document.getElementById('modal-badge');
+  badge.textContent = p.badge;
+  badge.style.backgroundColor = p.badgeColor;
+  document.getElementById('modal-title').textContent = p.title;
+  document.getElementById('modal-location').querySelector('span:last-child').textContent = p.location;
+  document.getElementById('modal-description').textContent = p.description;
+  carouselItems = [...p.media].sort((a, b) => (a.type === 'video' ? -1 : 1) - (b.type === 'video' ? -1 : 1));
+  carouselIndex = 0;
+  buildCarousel();
+  document.getElementById('project-modal').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeProjectModal() {
+  document.getElementById('project-modal').classList.add('hidden');
+  document.body.style.overflow = '';
+  document.querySelectorAll('#carousel-track video').forEach(v => v.pause());
+}
+
+function buildCarousel() {
+  const track = document.getElementById('carousel-track');
+  const dots  = document.getElementById('carousel-dots');
+  track.innerHTML = '';
+  dots.innerHTML  = '';
+  carouselItems.forEach((item, i) => {
+    const slide = document.createElement('div');
+    slide.style.cssText = 'min-width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#000';
+    if (item.type === 'image') {
+      const img = document.createElement('img');
+      img.src = item.src;
+      img.style.cssText = 'max-height:100%;max-width:100%;object-fit:contain;';
+      img.alt = 'Foto del proyecto';
+      slide.appendChild(img);
+    } else {
+      const vid = document.createElement('video');
+      vid.src = item.src;
+      vid.controls = true;
+      vid.style.cssText = 'max-height:100%;max-width:100%;';
+      slide.appendChild(vid);
+    }
+    track.appendChild(slide);
+    const dot = document.createElement('button');
+    dot.style.cssText = `width:10px;height:10px;border-radius:50%;border:none;cursor:pointer;transition:background 0.2s;background:${i===0?'#fff':'rgba(255,255,255,0.4)'}`;
+    dot.onclick = () => goToSlide(i);
+    dots.appendChild(dot);
+  });
+  updateCarousel();
+}
+
+function carouselMove(dir) {
+  carouselIndex = (carouselIndex + dir + carouselItems.length) % carouselItems.length;
+  updateCarousel();
+}
+
+function goToSlide(i) {
+  carouselIndex = i;
+  updateCarousel();
+}
+
+function updateCarousel() {
+  document.getElementById('carousel-track').style.transform = `translateX(-${carouselIndex * 100}%)`;
+  document.querySelectorAll('#carousel-track video').forEach(v => v.pause());
+  document.querySelectorAll('#carousel-dots button').forEach((dot, i) => {
+    dot.style.background = i === carouselIndex ? '#fff' : 'rgba(255,255,255,0.4)';
+  });
+  const show = carouselItems.length > 1;
+  document.getElementById('btn-prev').style.display = show ? '' : 'none';
+  document.getElementById('btn-next').style.display = show ? '' : 'none';
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeProjectModal(); });
+
+// ── Animación de conteo en la barra de estadísticas ──
+(function () {
+  function animateCount(el) {
+    const target = parseInt(el.dataset.target, 10);
+    const prefix = el.dataset.prefix || '';
+    const suffix = el.dataset.suffix || '';
+    const duration = 1800;
+    const steps = 60;
+    const stepTime = duration / steps;
+    let current = 0;
+    const increment = Math.ceil(target / steps);
+    const timer = setInterval(() => {
+      current = Math.min(current + increment, target);
+      el.textContent = prefix + current + suffix;
+      if (current >= target) clearInterval(timer);
+    }, stepTime);
+  }
+
+  const statsBar = document.getElementById('stats-bar');
+  if (!statsBar) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        statsBar.querySelectorAll('.stat-number').forEach(el => animateCount(el));
+        observer.unobserve(statsBar);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  observer.observe(statsBar);
+})();
 </script>
 </body></html>
