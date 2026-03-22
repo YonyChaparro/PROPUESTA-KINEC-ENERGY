@@ -1,0 +1,67 @@
+# ─── HTTPS + www canonicalization ────────────────────────────────────────────
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 1. HTTP → HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # 2. www → non-www  (cambia a non-www → www si prefieres)
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# ─── GZIP / Deflate ──────────────────────────────────────────────────────────
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/ld+json
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE font/woff2
+    AddOutputFilterByType DEFLATE font/woff
+</IfModule>
+
+# ─── Cache-Control ───────────────────────────────────────────────────────────
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # HTML — sin caché (siempre debe ser la versión más reciente)
+    ExpiresByType text/html                         "access plus 0 seconds"
+
+    # CSS / JS compilados
+    ExpiresByType text/css                          "access plus 1 year"
+    ExpiresByType application/javascript            "access plus 1 year"
+    ExpiresByType text/javascript                   "access plus 1 year"
+
+    # Imágenes y fuentes locales
+    ExpiresByType image/webp                        "access plus 1 year"
+    ExpiresByType image/png                         "access plus 1 year"
+    ExpiresByType image/jpeg                        "access plus 1 year"
+    ExpiresByType image/svg+xml                     "access plus 1 year"
+    ExpiresByType font/woff2                        "access plus 1 year"
+    ExpiresByType font/woff                         "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+    # Cabecera Cache-Control explícita para HTML
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+    </FilesMatch>
+
+    # Cache larga para assets con hash / versión
+    <FilesMatch "\.(css|js|webp|png|jpg|jpeg|svg|woff2|woff)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>
+
+# ─── Seguridad básica ─────────────────────────────────────────────────────────
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
