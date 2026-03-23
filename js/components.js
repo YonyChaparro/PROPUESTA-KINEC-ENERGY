@@ -1,5 +1,5 @@
 /**
- * Blog Components Loader
+ * Global Components Loader
  * Kinetic Energy - Modular Blog System
  */
 

@@ -2,6 +2,9 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
+    # 0. Redirigir raíz a index.html explícitamente
+    DirectoryIndex index.html
+
     # 1. HTTP → HTTPS
     RewriteCond %{HTTPS} off
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
