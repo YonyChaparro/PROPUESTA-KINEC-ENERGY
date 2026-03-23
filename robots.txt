@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Bloqueamos bots de IA y rastreadores de spam que consumen ancho de banda (opcional pero recomendado en 2026)
+User-agent: GPTBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://kineticenergy.com.co/sitemap.xml
