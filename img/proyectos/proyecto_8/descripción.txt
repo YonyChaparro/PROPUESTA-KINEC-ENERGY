@@ -1,0 +1,24 @@
+Ficha de Entrega: Infraestructura para Kia EV5 Eléctrico
+Empresa: Kinetic Energy Soluciones
+Ubicación: Castilla, Bogotá
+Proyecto: Implementación de estación de carga AC Nivel 2
+
+1. Especificaciones de Carga del Vehículo
+Capacidad de Carga AC: La Kia EV5 incorpora un cargador de a bordo (OBC) de alta eficiencia que admite hasta 11 kW (en redes trifásicas) o hasta 7.2 kW - 9.6 kW (en redes monofásicas de alta potencia).
+
+Interfaz de Conexión: Utiliza el estándar Tipo 1 (SAE J1772), lo que permite una integración perfecta con estaciones de carga inteligentes y conectores industriales.
+
+Tiempo Estimado: Con la infraestructura instalada por Kinetic Energy, el vehículo puede recuperar el 100% de su autonomía en un ciclo nocturno promedio (aprox. 7 a 10 horas, dependiendo de la variante de batería 64.2 kWh o 88.1 kWh), superando por mucho a las 27+ horas que tomaría en una toma convencional de 110V.
+
+2. Detalles de la Instalación Técnica
+Acometida Reforzada: Instalación de 41 metros de cableado en cobre con calibre dimensionado para soportar el flujo constante de corriente sin caídas de tensión, garantizando la salud a largo plazo de la batería del vehículo.
+
+Canalización y Estética: Al igual que en todos nuestros proyectos, el tendido se realizó con tubería señalizada y trazado a escuadra, respetando la arquitectura del lugar y cumpliendo con las normas RETIE.
+
+Punto de Conexión: Entrega de salida a 220V mediante receptáculo de grado industrial, protegido por breakers termomagnéticos exclusivos para el circuito de movilidad eléctrica.
+
+3. Recepción a Conformidad
+El proceso finaliza con la entrega técnica al propietario, donde se realizan pruebas de carga real para validar la comunicación entre la red y el sistema de gestión de energía de la Kia EV5. El video adjunto muestra la satisfacción del cliente al recibir una infraestructura segura, estética y funcional.
+
+Kinetic Energy Soluciones
+Potenciando la movilidad eléctrica en cada rincón de Bogotá con ingeniería de vanguardia.

@@ -1,0 +1,14 @@
+Reporte de Instalación: Estación de Carga para Vehículo Eléctrico (VE)
+Ubicación: Cota, Cundinamarca.
+Fecha de entrega: 1 de mayo de 2026.
+Actividad: Implementación de infraestructura de carga doméstica para ecosistema Tesla.
+
+Especificaciones Técnicas del Proyecto
+Interfaz de Salida: Se realizó la integración de un receptáculo NEMA 14-50R. Este estándar es óptimo para la carga de Nivel 2, permitiendo una entrega de potencia de hasta 9.6 kW (dependiendo de la configuración del circuito y el cargador a bordo del vehículo), lo que reduce significativamente los tiempos de carga en comparación con tomas residenciales convencionales.
+
+Seguridad y Control: La instalación se diseñó como un punto de carga dedicado, garantizando la integridad térmica del sistema y el cumplimiento de las normativas de seguridad eléctrica vigentes. El uso de este conector específico permite una conexión robusta y segura para el adaptador móvil de Tesla.
+
+Protocolo de Verificación: Se llevaron a cabo pruebas de continuidad y carga real, confirmando la correcta comunicación entre la infraestructura de suministro y el sistema de gestión de batería (BMS) del vehículo.
+
+Conclusión del Servicio
+La unidad se entregó plenamente operativa, permitiendo al usuario una gestión de carga eficiente y segura desde su domicilio. Este proyecto reafirma nuestro compromiso con la transición energética mediante la implementación de soluciones de movilidad eléctrica de alta fiabilidad.

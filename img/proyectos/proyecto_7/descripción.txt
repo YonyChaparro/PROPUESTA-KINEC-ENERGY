@@ -1,0 +1,19 @@
+Entrega de Proyecto: Infraestructura de Carga Tesla a Conformidad
+Empresa: Kinetic Energy Soluciones
+Ubicación: Castilla, Bogotá.
+Proyecto: Implementación de punto de carga Nivel 2 y entrega técnica presencial.
+
+Resumen de la Intervención
+En el sector de Castilla, finalizamos con éxito la instalación de un nuevo punto de carga dedicado para un vehículo Tesla. En esta ocasión, el cliente optó por la proactividad, dejando su infraestructura eléctrica plenamente operativa y verificada antes de la llegada de su vehículo, asegurando así una transición inmediata a la movilidad eléctrica.
+
+Especificaciones Técnicas y de Diseño
+Acometida de Alta Eficiencia: Instalación de 41 metros lineales de conductor de cobre, con un tendido de tubería señalizada y ejecutada rigurosamente a escuadra, manteniendo la estética y el orden en las áreas intervenidas.
+
+Optimización de Carga: Configuración de salida a 220V mediante la integración de un receptáculo NEMA industrial. Este sistema permite al usuario aprovechar el máximo potencial del cargador móvil de su vehículo, reduciendo significativamente los tiempos de carga frente a una toma convencional.
+
+Seguridad Eléctrica: El punto de conexión en el armario del cliente cuenta con protecciones (breakers) debidamente rotulados, garantizando un control total y seguro del suministro.
+
+Hito del Proyecto: Recepción a Conformidad
+Como se evidencia en el registro audiovisual, el proceso culmina con la entrega técnica y validación por parte del cliente. En Kinetic Energy Soluciones, nuestra metodología incluye una explicación detallada del funcionamiento del sistema y la entrega de los conectores necesarios para garantizar una experiencia de carga segura y eficiente desde el primer día.
+
+"Seguimos expandiendo nuestra red de carga en Bogotá, entregando soluciones de ingeniería que combinan cumplimiento normativo, estética y la máxima confianza para nuestros usuarios."
